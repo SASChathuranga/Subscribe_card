@@ -67,3 +67,25 @@ body {
   padding: 0px 15px;
   border-radius: 5px;
 }
+.btn-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(108, 113, 254, 0.1);
+  color: #6c71fe;
+  padding: 5px 3px 0px 3px;
+  cursor: pointer;
+  text-align: center;
+}
+.input-box input[type="email"] {
+  width: 90%;
+  height: 50px;
+  outline: none;
+  background: transparent;
+  margin: 8px 0;
+  border: none;
+}
+
+.input-box:focus {
+  border: 1px solid blue;
+}
