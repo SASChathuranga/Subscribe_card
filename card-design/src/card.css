@@ -32,3 +32,38 @@ body {
   font-weight: 600;
   text-align: center;
 }
+.sub-title {
+  font-family: "Noto-sans";
+  font-weight: 400;
+  width: 376px;
+  margin-top: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #828282;
+}
+.bottom-line {
+  width: 60px;
+  height: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  background: #6c71fe;
+}
+.input-box {
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  height: 54px;
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding: 0px 15px;
+  border-radius: 5px;
+}
